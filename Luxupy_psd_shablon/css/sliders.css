@@ -1,0 +1,17 @@
+.slider {
+  
+  width: 1258px; /*Update to your slider width */
+  height: 640px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+  background:  gray; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}

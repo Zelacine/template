@@ -3,7 +3,7 @@ pipeline {
    stages {
        stage('Source') {
            steps {
-               git credentialsId: '43244b93-c572-4374-a3d6-8df255fd6e28', url: 'https://github.com/Zelacine/studentsdb/'
+               git credentialsId: '43244b93-c572-4374-a3d6-8df255fd6e28', url: 'https://github.com/Zelacine/studentsdb.git'
            }
        }
        stage('Read') {
